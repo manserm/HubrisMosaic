@@ -1,0 +1,136 @@
+/*
+ Theme Name:   Eclipse Child
+ Theme URI:    http://cyberchimps.com/
+ Description:  Eclipse Child Theme
+ Author:       
+ Author URI:   http://cyberchimps.com/
+ Template:     eclipse
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  eclipse-child
+*/
+
+@import url("../eclipse/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+footer .meta-item {
+	float: left;
+	clear: right;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+/*======================================= MAIN HEADER =========================================*/
+
+#main_header {
+	margin-bottom: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	min-height: 80px;
+	background: none
+}
+
+header#cc-header #logo {
+	margin-top: 0px;
+}
+
+#navigation {
+	margin: 0px 0 5px 0;
+}
+
+.navbar .nav {
+	position: relative;
+	left: 0;
+	display: block;
+	float: right;
+	margin: 0 10px 0 0}
+	
+	.site-footer #copyright {
+	text-align: left;
+}
+
+@media (max-width: 100%) {
+	#top_header {
+		/* padding-right: 20px; */
+		padding-left: 20px;
+		margin-top:32px;
+	}
+
+}
+
+@media (max-width: 783px) {
+
+    #wpadminbar {
+        display:none;
+    }
+
+	#footer-full-sub {
+		padding-right: 40px;
+		padding-left: 30px;
+		margin-left:-20px;
+		margin-right:-20px;
+	}
+
+	#top_header {
+		padding-right: 40px;
+		padding-left: 30px;
+		margin-left: -20px;
+	}
+		.row-fluid .span6 {
+		min-height: 0px;
+	}
+	
+	html{
+			margin-top:0px;
+	}
+	
+}
+
+@media (min-width: 783px) {
+	#footer-full-sub {
+		padding-right: 40px;
+		padding-left: 30px;
+		margin-left:-20px;
+		margin-right:-20px;
+	}
+
+	#top_header {
+		padding-right: 40px;
+		padding-left: 30px;
+		margin-left: -20px;
+	}
+		.row-fluid .span6 {
+		min-height: 0px;
+	}
+	
+	html{
+			margin-top:32px;
+	}
+	
+}
+
+
+@media screen and (max-width:400px) {
+    #wpadminbar {
+        display:none;
+    }
+		html{
+			margin-top:0px;
+	}
+}
+
+#wp-admin-bar-cyberchimps{display:none}
+#wp-admin-bar-wp-logo{display:none}
+#wp-admin-bar-Login{float:right !important;}
+
+.ssba{
+	clear:left;
+}
+
+#Login{
+float:right;
+}
+
